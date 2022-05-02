@@ -1,1 +1,13 @@
 // Code EyesOnMe Component Here
+function EyesOnMe() {
+    return(
+        <div>
+            <button
+            onBlur ={()=> console.log('Hey! Eyes on me!')}
+            onFocus ={()=>  console.log('Good!')}
+            >Eyes on me</button>
+        </div>
+    ) //<button onClick={buttonFunction}>Eyes one me</button>;
+}
+
+export default EyesOnMe
